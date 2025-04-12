@@ -1,0 +1,16 @@
+# .env file for EUDA Remediation Tool
+
+# Anthropic API Key for Claude
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+
+# AWS Credentials for Amazon Titan Embeddings
+AWS_ACCESS_KEY_ID=your_aws_access_key_id_here
+AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key_here
+AWS_REGION=us-east-1
+
+# PostgreSQL Database Configuration
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_DB=euda_db
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
